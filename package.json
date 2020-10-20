@@ -1,6 +1,6 @@
 {
   "name": "@pafik13/node-rdkafka-fork",
-  "version": "v2.9.4",
+  "version": "v2.9.5",
   "description": "Node.js bindings for librdkafka",
   "librdkafka": "1.4.2",
   "main": "lib/index.js",
