@@ -1,6 +1,6 @@
 {
   "name": "@pafik13/node-rdkafka-fork",
-  "version": "v2.9.6",
+  "version": "v2.9.7",
   "description": "Node.js bindings for librdkafka",
   "librdkafka": "1.4.2",
   "main": "lib/index.js",
@@ -8,7 +8,7 @@
     "configure": "node-gyp configure",
     "build": "node-gyp build",
     "test": "make test",
-    "install": "node-gyp-build",
+    "install": "prebuild-install || node-gyp rebuild",
     "prepack": "node ./ci/prepublish.js"
   },
   "keywords": [
