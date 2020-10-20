@@ -8,7 +8,7 @@
     "configure": "node-gyp configure",
     "build": "node-gyp build",
     "test": "make test",
-    "install": "node-gyp rebuild",
+    "install": "prebuild-install || node-gyp rebuild",
     "prepack": "node ./ci/prepublish.js"
   },
   "keywords": [
@@ -17,7 +17,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git@github.com:Blizzard/node-rdkafka.git"
+    "url": "git@github.com:pafik13/node-rdkafka.git"
   },
   "contributors": [
     {
